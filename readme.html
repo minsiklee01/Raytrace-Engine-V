@@ -1,0 +1,182 @@
+<meta charset="utf-8" lang="en">  <!-- this line allows UTF-8 characters in the .html file -->
+
+
+                    **Project 02: Raytrace**
+
+This is a sample write up for the Project 02: Raytrace COS350 project.
+
+
+
+<!--
+
+General
+========
+
+Use this readme to describe what you learned while working on this project.
+Also include any problems you ran into, solutions you found, fun things discovered, etc.
+This document is your chance to communicate to me what you learned and to show off what you did.
+Feel free to include code snippets if it helps.
+
+You should include all the images that you code generated in here along with a short description.
+I have added a few reference images (under `references/` folder), but you should delete those and add your own images (under `output/` folder).
+
+Be sure to include a description of the elective(s) and creative artifact.
+
+Hint: it might be good to write a short note on how you know your implementation is doing the correct thing.
+For some of the images, this is obvious as you can compare your output with my reference images.
+But for other images, it might not be so obvious.
+
+
+Feel free to modify the structure of this `readme.html` file to fit the current assignment and to fit how you wish to present your findings.
+
+Take a look at the [Markdeep Feature Demo](https://casual-effects.com/markdeep/features.md.html) to see how you can markup this document.
+
+
+
+Submission
+-----------
+
+Submit a zip with everything needed to run your project, which includes _ALL_ source code and any extra images.
+I will run your submissions on my computer to make sure that all images are produced by your code.
+I will read through your readme (this document) to understand how you implemented your source.
+
+
+-->
+
+
+
+Author
+=============
+
+
+<!-- Note: wrapping table in div.noheader will hide the table's header -->
+<!-- Note: wrapping table in div.firstcol will style the first column different from other columns -->
+<div class="noheader firstcol">
+                  |             
+------------------|-------------
+name              | Minsik Lee
+computer + OS     | Mac
+time to complete  | 15+ hours
+partner           | none, but see Reflection section below
+additional help   | see Reflection section
+</div>
+
+
+
+Implementations
+===============
+
+Output
+----------------
+
+<!--
+I have included references images, but you should delete these and add in your produced images.
+-->
+sphere
+
+![](output/P02_00_sphere.png)
+
+sphere_ambient
+
+![](output/P02_01_sphere_ambient.png)
+
+sphere_room
+
+![](output/P02_02_sphere_room.png)
+
+quad
+
+![](output/P02_03_quad.png)
+
+quad room
+
+![](output/P02_04_quad_room.png)
+
+ball on plane
+
+![](output/P02_05_ball_on_plane.png)
+
+balls on plane
+
+![](output/P02_06_balls_on_plane.png)
+
+reflections
+
+![](output/P02_07_reflections.png)
+
+antialiased
+
+![](output/P02_08_antialiased.png)
+
+elective1: triangle
+
+Implemented using the slide.
+
+![](output/P02_09_triangle.png)
+
+elective2: glass
+
+Implemented using the slide.
+
+![](output/P02_10_glass.png)
+
+creative artifact: ico sphere
+
+![](references/blender.png)
+![](output/P02_11_ico_sphere.png)
+
+I created a very simple ico sphere in blender and used the coordinates of triangles to create my own in v.
+
+
+
+
+
+Known bugs / limitations
+-------------------------
+
+<!--
+What bugs or limitations were troublesome?
+What bugs or limitations still remain?
+Are these bugs or limitations a problem in your implementation, algorithm, or something else?
+How do you know that you did not miss a bug?
+What additional tests did you run to ensure that your implementations are correct?
+-->
+Refraction is not perfect, it creates a black ring.
+
+
+Reflection
+===========
+
+<!--
+Describe whatever help (if any) that you received.
+Don't include readings, lectures, but do include any help from people (including course staff, lab TAs, classmates, and friends) and attribute them by name.
+How did you discuss the problem with others? (ex: white-board algorithms, looking over code for bugs, looking at print out results, etc.)
+Describe any serious problems you encountered.
+How much time did you spend writing new code, debugging code, thinking about the algorithms, discussing with someone else, running tests, writing comments and documentation, etc.?
+List any other comments here.
+Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
+-->
+This project was challenging but got a lot of help from a classmate and Dr.Denning. Piazza was a light in the darkness when I got stuck. 
+Compared to writing the codes in v lang, understanding the concept of raytracing took most of the time.
+The process was stressful but fun. I am very happy with what I have.
+
+
+
+
+
+<!--   Feel free to modify the following to fit a theme of your choosing   -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> <!-- a sans-serif font -->
+<style>  /* A TAYLOR-INSPIRED THEME */
+body {font-family:'Open Sans',sans-serif;}
+.md a:link, .md a:visited {color:hsl(252,23.0%,44.3%); font-family:'Open Sans',sans-serif;}
+.md table.table th {background-color:hsl(252,23.0%,44.3%);}
+.md .noheader th {display:none;}
+.md .firstcol td:first-child {white-space:pre;color:white;vertical-align:top;font-weight:bold;border-color:black;background:hsl(252,23.0%,54.3%);}
+.md .firstcol tr:nth-child(even) td:first-child {background:hsl(252,23.0%,44.3%);}
+</style>
+
+
+<!--   Leave the following Markdeep formatting code, as this will format your text above to look nice in a wed browser   -->
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
+<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible");</script>
