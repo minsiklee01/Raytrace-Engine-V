@@ -1,4 +1,4 @@
-# This is a raytracing engine built from scracth with v lang as part of a course work.
+### This is a raytracing engine built from scracth with v lang as part of a course work.
 
 Rendered Images
 ----------------
